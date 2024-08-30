@@ -1,0 +1,45 @@
+div{
+    padding: 20px;
+    background-color: rgb(80, 69, 69);
+    width: 100%;
+    height: 500%;
+    
+}
+#btn1
+{
+    background-color: rgb(62, 129, 62);
+    border-radius: 12px;
+    padding: 1.5px;
+    font-size: medium;
+    font-family:cursive
+    
+}
+h1{
+    justify-content: center;
+    font-family: cursive;
+    color: rgb(20, 20, 20);
+  
+}
+#input
+{
+    border-radius: 15px;
+    background-color: rgb(83, 81, 81);
+    color: rgb(179, 203, 219);
+    padding-right: 12px;
+    border-color: rgb(232, 244, 255);
+    font-family: cursive;
+}
+#btn2
+{
+    background-color: #615e5e;
+    border-radius:15px;
+    border-color: rgb(232, 244, 255);
+    
+}
+#list
+{
+
+    border-radius:15px;
+    border-color: rgb(232, 244, 255);
+
+}

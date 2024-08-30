@@ -1,0 +1,67 @@
+
+                              <!-- REFERENCE TODO LIST-->
+<!-- <input id="input">
+<button onclick="add()">ADD</button>
+<ul id="list-container">
+    <li>Hello
+        <button onclick="deleteitem(event)">Delete</button>
+    </li>
+</ul>
+<script>
+    //selecting ul
+
+    var ul=document.getElementById("list-container")
+    var input = document.getElementById("input")
+    function add()
+    {
+        var listitems = document.createElement("li")
+        listitems.innerHTML=input.value  + "<button onclick='deleteitem(event)'>Delete</button>"
+
+        ul.append(listitems)  
+
+    }
+    function deleteitem(event)
+    {
+        event.target.parentElement.remove()
+
+    }
+</script> -->
+
+<link rel="stylesheet" href="todo.css">
+
+
+<div>
+    <h1>SAMPLE TODO LIST</h1>
+    <input id="input">
+<button id="btn1" onclick="add()">ADD</button>
+<ul id="list-container">
+    <li id="list">Hello
+        <button  id="btn2"  onclick="deleteitem(event)">Delete</button>
+    </li>
+</ul>
+
+</div>
+
+<script>
+    // selecting ul
+
+    var ul = document.getElementById("list-container")
+    var input = document.getElementById("input")
+
+
+    function add()
+    {
+        var listitems = document.createElement("li")
+        listitems.innerHTML=input.value + "<button onclick='deleteitem(event)'>Delete</button>"
+        ul.append(listitems)
+    }
+
+    function deleteitem(event)
+    {
+        event.target.parentElement.remove()
+
+    }
+
+</script>
+
+
